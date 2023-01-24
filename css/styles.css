@@ -1,38 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-*{
-    font-family: 'EB Garamond', serif;
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+* {
+    font-family: "EB Garamond", serif;
 }
 /* some custom styles */
-.banner-img{
+.banner-img {
     background-image: url(../images/Rectangle\ 6.png);
-    background-repeat: no-repeat;
-    height: 500px;
-    width: 1200px;
+    height: 500px !important;
 }
-.banner-img-1{
+
+.carousel-banner-img {
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.banner-img-1 {
     background-image: url(../images/Rectangle\ 6.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    
 }
-.banner-img-2{
+
+.banner-img-2 {
     background-image: url(../images/Rectangle\ 6.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
 }
-.banner-img-3{
+
+.banner-img-3 {
     background-image: url(../images/Rectangle\ 6.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
 }
+
 @media screen and (max-width: 576px) {
-    .banner-img{
-        width: 100vw;
+    .banner-img {
+        width: 100%;
     }
-    .bonus-section{
+    .bonus-section {
         flex-direction: column;
         align-items: center;
     }
